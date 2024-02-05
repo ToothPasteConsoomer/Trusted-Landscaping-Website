@@ -1,1 +1,34 @@
-tes test test
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Trusted Landscaping</title>
+</head>
+<body>
+
+    <h1>Trusted Landscaping</h1>
+    <p>
+        This is a test website. Over the course of
+        days, several stuff will be added, including:
+        <ul>
+            <li>Bookings</li>
+            <li>About Us</li>
+            <li>List of Services</li>
+            <li>Contact Info</li>
+            <li>Coverage</li>
+            <li>Payment Handling</li>
+        </ul>
+    </p>
+    <h3>Who are we?</h3>
+    <p>
+        Trusted Landscaping is a landscaping company that offers multiple
+        services, including weeding, mowing, planting tress, installation of
+        sprinkler systems and more for example. <br />
+        If you have a custom request you can contact us first, and we can decide
+        if it's doable.
+    </p>
+    
+
+</body>
+</html>
