@@ -1,0 +1,21 @@
+﻿body {
+    font: san-serif;
+    background-color: #ccdcff;
+    margin: 5px;
+    padding: 5px;
+}
+header{
+    color: black;
+    text-align: center;
+}
+h2{
+    border-top: 2px solid #333333;
+    padding-top: 5px;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+}
+
+h1{
+    text-align: center;
+}
