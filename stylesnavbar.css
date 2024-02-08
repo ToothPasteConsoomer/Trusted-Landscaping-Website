@@ -1,6 +1,15 @@
 nav {
     background-color: Black;
-    color: Gray;
     text-align: left;
-    margin: 70px;
+    padding: 50px;
+    font-size: 45px;
+    word-spacing: 25px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
 }
