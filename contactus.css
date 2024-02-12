@@ -1,13 +1,37 @@
 ﻿body {
-    text-align: center;
-    background-color: #ccdcff;
+    background-color: lightgreen;
 }
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    font-size: medium;
-    background-color: #e6f5ff
+h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+header {
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: lightgreen;
+    color: black;
+    border-style: solid;
+    border-width: 10px;
+    padding: 50px;
+}
+
+li {
+    margin-left: 90px;
+    color: black;
+    font-size: 50px;
+}
+
+section ul {
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+section {
+    background-color: rgb(200, 305, 200);
+    border-style: solid;
 }
