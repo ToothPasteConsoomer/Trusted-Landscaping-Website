@@ -1,21 +1,37 @@
 ﻿body {
-    font: san-serif;
-    background-color: #ccdcff;
-    margin: 5px;
-    padding: 5px;
-}
-header{
-    color: black;
-    text-align: center;
-}
-h2{
-    border-top: 2px solid #333333;
-    padding-top: 5px;
-    text-align: center;
-    border-bottom: 2px solid #333333;
-    padding-bottom: 5px;
+    background-color: lightgreen;
 }
 
-h1{
+h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+header {
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline;
     text-align: center;
+    background-color: lightgreen;
+    color: black;
+    border-style: solid;
+    border-width: 10px;
+    padding: 50px;
+}
+
+li {
+    margin-left: 90px;
+    color: black;
+    font-size: 50px;
+}
+
+section ul {
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+section {
+    background-color: rgb(200, 305, 200);
+    border-style: solid;
 }
