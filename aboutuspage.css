@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: lightgreen;
     text-align: center;
 }
@@ -35,4 +35,8 @@ section ul {
 section {
     background-color: rgb(200, 305, 200);
     border-style: solid;
+}
+img {
+    width: 650px;
+    height: 400px;
 }
