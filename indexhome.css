@@ -1,11 +1,13 @@
 ﻿body {
     background-color: lightgreen;
-    text-align: center;
+    
 }
 
 h1 {
     font-size: 30px;
     text-decoration: underline;
+    text-align: center;
+  
 }
 
 header {
@@ -18,21 +20,34 @@ header {
     border-style: solid;
     border-width: 10px;
     padding: 50px;
+    
+}
+p {
+    text-align: center;
 }
 
+ul{
+    text-align: center;
+}
 li {
     margin-left: 90px;
     color: black;
     font-size: 50px;
+    
 }
 
 section ul {
     font-weight: bold;
     font-size: 50px;
     text-decoration: underline;
+    
+}
+h3 {
+    text-align: center;
 }
 
 section {
     background-color: rgb(200, 305, 200);
     border-style: solid;
+    
 }
