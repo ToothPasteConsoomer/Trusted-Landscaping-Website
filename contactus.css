@@ -1,13 +1,29 @@
 body {
-    background-color: lightgreen;
     text-align: center;
+    background-color: rgb(210, 305, 200);
+    ;
 }
 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: medium;
+    background-color: #e6f5ff
+}
+h4 {
+      text-align: center;
+}
+h2 {
+font-size: 40px;
+border-block: dotted;
+}
 h1 {
-    font-size: 30px;
-    text-decoration: underline;
+font-size: 60px;
+text-decoration: underline;
+text-align: center;
 }
-
 header {
     font-weight: bold;
     font-size: 60px;
@@ -19,7 +35,6 @@ header {
     border-width: 10px;
     padding: 50px;
 }
-
 li {
     margin-left: 90px;
     color: black;
@@ -31,18 +46,21 @@ section ul {
     font-size: 50px;
     text-decoration: underline;
 }
-
 section {
     background-color: rgb(200, 305, 200);
     border-style: solid;
 }
-img {
-    width: 650px;
-    height: 400px;
-    background-color: rgb(200, 305, 200);
-    border-style: solid;
-    padding: 10px;
-    border-width: 50px;
-    border-color: rgb(50, 205, 144);
+button {
+    padding: 20px;
 }
-
+h4 {
+   font-size: 20px;
+}
+h3 {
+    font-size: 30px;
+    border-block: dotted;
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
