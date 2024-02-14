@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: lightgreen;
     
 }
@@ -28,6 +28,8 @@ p {
 
 ul{
     text-align: center;
+    position: relative;
+    right: 60px;
 }
 li {
     margin-left: 90px;
@@ -83,3 +85,4 @@ section {
     border-style: solid;
     
 }
+
