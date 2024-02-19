@@ -1,0 +1,60 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    text-align:center;
+}
+
+
+header {
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: lightgreen;
+    color: black;
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 50%;
+    margin: auto;
+    padding: 50px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: auto;
+    width: 100%;
+}
+
+    button:hover {
+        background-color: green;
+        width: 100%;
+    }
+
+.success {
+    color: darkgreen;
+}
+
+.error {
+    color: red;
+}
