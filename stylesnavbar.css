@@ -4,6 +4,7 @@ nav {
     padding: 50px;
     font-size: 45px;
     word-spacing: 25px;
+    overflow: hidden;
 }
 a:link {
     color: white;
@@ -12,4 +13,9 @@ a:link {
 a:visited {
     color: white;
     text-decoration: none;
+}
+
+.topnav-right
+{
+    float: right;
 }
