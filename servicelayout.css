@@ -1,5 +1,6 @@
 body {
  background-color: lightgreen;
+ font-family: Verdana;
 }
 h1 {
 font-size: 60px;
@@ -29,4 +30,8 @@ section ul {
 section {
     background-color: rgb(200, 305, 200);
     border-style: solid;
+}
+
+.maprange {
+    text-align: center;
 }
