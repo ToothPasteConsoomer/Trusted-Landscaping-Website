@@ -68,3 +68,19 @@ label {
     font-weight: bold;
     font-size: 20px;
 }
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: medium;
+    background-color: #e6f5ff
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: medium;
+    background-color: #e6f5ff
+}
