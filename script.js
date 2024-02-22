@@ -7,14 +7,16 @@ const mobileNumberInput = document.getElementById('phone');
 const emailInput = document.getElementById('email');
 const cityInput = document.getElementById('city');
 const optionInput = document.getElementById('options');
-const submit = document.getElementById('submit')[0];
+const formContact = document.getElementById('form-contact'); // Replace with the actual ID of your form
 
-submit.addEventListener('submit', (e) => {
+formContact.addEventListener('submit', (e) => {
     e.preventDefault();
+    
     if (!emailInput.value) {
         errorMessage.textContent = 'Please fill in all required fields *';
         return;
     }
+
     let ebody = `
         <b>Name: </b>${firstNameInput.value}&nbsp;${lastNameInput.value}
         <br>
@@ -39,5 +41,5 @@ submit.addEventListener('submit', (e) => {
     .then(
         message => alert('Quote sent successfully!')
     );
-    submit.reset(); // Reset the form
+    formContact.reset(); // Reset the form
 });
