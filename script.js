@@ -39,5 +39,5 @@ formContact.addEventListener('submit', (e)=> {
     .then(
         message => alert('Quote sent successfully!')
     );
-    formContact.reset(); // Reset the form
+   // formContact.reset(); // Reset the form
 });
