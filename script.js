@@ -43,9 +43,9 @@ signupForm.addEventListener('submit', function(event) {
 Email.send({
     SecureToken : "aa82427b-69d2-4421-b398-622278da0b54",
     To : 'moorearic5@gmail.com',
-    From : "you@isp.com",
-    Subject : emailInput,
-    Body : optionInput
+    From : emailInput,
+    Subject : Quote Request,
+    Body : ebody
 }).then(
   message => alert(message)
 );
