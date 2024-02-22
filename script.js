@@ -8,6 +8,7 @@ const mobileNumberInput = document.getElementById('phone');
 const emailInput = document.getElementById('email');
 const cityInput = document.getElementById('city');
 const optionInput = document.getElementById('options');
+const submit = document.getElementsByClassName('form-contact')[0];
 
 submit.addEventListener('click', (e) => { // Change 'submit' to 'click'
     e.preventDefault();
@@ -42,5 +43,5 @@ submit.addEventListener('click', (e) => { // Change 'submit' to 'click'
     .then(
         message => alert('Quote sent successfully!')
     );
-    // submit.reset(); 
+    submit.reset(); 
 });
