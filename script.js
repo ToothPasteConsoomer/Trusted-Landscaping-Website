@@ -1,16 +1,15 @@
-
 const successMessage = document.getElementById('success-message');
 const errorMessage = document.getElementById('error-message');
-const submit = document.getElementById('submit'); // Define or get the submit button element
+const submitButton = document.getElementById('submit'); // Define or get the submit button element
 const firstNameInput = document.getElementById('fname');
 const lastNameInput = document.getElementById('lname');
 const mobileNumberInput = document.getElementById('phone');
 const emailInput = document.getElementById('email');
 const cityInput = document.getElementById('city');
 const optionInput = document.getElementById('options');
-const submit = document.getElementsByClassName('form-contact')[0];
+const formContact = document.getElementsByClassName('form-contact')[0];
 
-submit.addEventListener('submit', (e) => { // Change 'submit' to 'click'
+formContact.addEventListener('submit', (e) => {
     e.preventDefault();
     console.log("Clicked");
 
@@ -43,5 +42,5 @@ submit.addEventListener('submit', (e) => { // Change 'submit' to 'click'
     .then(
         message => alert('Quote sent successfully!')
     );
-    submit.reset(); 
+    formContact.reset(); // Reset the form
 });
