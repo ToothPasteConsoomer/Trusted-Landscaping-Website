@@ -10,12 +10,24 @@ signupForm.addEventListener('submit', function(event) {
 	const mobileNumberInput = document.getElementById('phone').value;
 	const emailInput = document.getElementById('email').value;
 	const cityInput = document.getElementById('city').value;
-	const languageInput = document.getElementById('language').value;
+	const optionInput = document.getElementById('options').value;
 
 	if (!emailInput) {
 		errorMessage.textContent = 'Please fill in all required fields *';
 		return;
 	}
+	let ebody = '
+		<b>Name: </b>${fname.value}&nbsp;${lname.value}
+		<br>
+		<b>Email: </b>${email.value}
+		<br>
+		<b>City: </b>${city.value}
+		<br>
+		<b>Phone: </b>${phone.value}
+		<br>
+		<b>Option: </b>${option.value}
+		<br>
+		'
 	users.push ({
 		firstName: firstNameInput,
 		lastName: lastNameInput,
@@ -27,4 +39,14 @@ signupForm.addEventListener('submit', function(event) {
 
 	signupForm.reset();
 });
+
+Email.send({
+    SecureToken : "aa82427b-69d2-4421-b398-622278da0b54",
+    To : 'moorearic5@gmail.com',
+    From : "you@isp.com",
+    Subject : emailInput,
+    Body : optionInput
+}).then(
+  message => alert(message)
+);
 
