@@ -44,7 +44,7 @@ signupForm.addEventListener('submit', function(event) {
     Body : ebody
 })
 .then(
-  message => alert(message)
+  message => alert(successMessage)
 );
 signupForm.reset();
 });
