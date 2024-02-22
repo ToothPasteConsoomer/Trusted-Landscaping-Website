@@ -38,9 +38,7 @@ signupForm.addEventListener('submit', function(event) {
 	successMessage.textContent = 'Quote sent sccuessfully!';
 
 	signupForm.reset();
-});
-
-Email.send({
+	Email.send({
     SecureToken : "aa82427b-69d2-4421-b398-622278da0b54",
     To : 'moorearic5@gmail.com',
     From : emailInput,
@@ -48,5 +46,6 @@ Email.send({
     Body : ebody
 }).then(
   message => alert(message)
-);
+});
+
 
