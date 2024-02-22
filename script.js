@@ -32,7 +32,7 @@ formContact.addEventListener('submit', (e)=> {
 
     // Assuming you have the appropriate library script or import statement for sending emails
     Email.send({
-        SecureToken: "6630e37e-6ced-4666-8e70-f9401cf77f30",
+        SecureToken: "c68817de-9e45-4949-afeb-bcf7b60583b6",
         To: "moorearic5@gmail.com",
         From: "moorearic5@gmail.com",
         Subject: "Quote Request",
