@@ -27,12 +27,14 @@ formContact.addEventListener('submit', (e)=> {
         errorMessage.textContent = 'Please fill in all required fields *';
         return;
     } else {
-    successMessage.textContent = 'Quote sent successfully!';
+        successMessage.textContent = 'Quote sent successfully!';
     }
+
+    // Assuming you have the appropriate library script or import statement for sending emails
     Email.send({
         SecureToken: "6630e37e-6ced-4666-8e70-f9401cf77f30",
         To: "moorearic5@gmail.com",
-        From: "moorearic5@gmail.com,
+        From: "moorearic5@gmail.com",
         Subject: "Quote Request",
         Body: ebody
     })
