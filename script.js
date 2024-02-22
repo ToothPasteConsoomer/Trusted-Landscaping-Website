@@ -27,7 +27,7 @@ submit.addEventListener('submit',(e)=>{
 		<br>
 		<b>Option: </b>${options.value}
 		<br>
-		'
+		';
     successMessage.textContent = 'Quote sent sccuessfully!';
     Email.send({
     SecureToken : "aa82427b-69d2-4421-b398-622278da0b54",
