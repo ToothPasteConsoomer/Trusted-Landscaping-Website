@@ -22,13 +22,13 @@ li {
   color: black;
   font-size: 26px;
   text-align: center;
-  padding-left: 100px;
+  padding-right: 50px;
 }
 section ul {
   font-weight: bold;
   font-size: 20px;
   text-decoration: underline;
-  padding-left: 100px;
+  padding-right: 50px;
 }
 section {
     background-color: rgb(200, 305, 200);
