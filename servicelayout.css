@@ -37,4 +37,6 @@ section {
 
 .maprange {
 	text-align: center;
+}.maprange ul {
+    list-style-type: none;
 }
