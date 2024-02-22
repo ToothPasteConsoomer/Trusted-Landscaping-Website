@@ -25,7 +25,7 @@ signupForm.addEventListener('submit', function(event) {
 		<br>
 		<b>Phone: </b>${phone.value}
 		<br>
-		<b>Option: </b>${option.value}
+		<b>Option: </b>${options.value}
 		<br>
 		'
 	users.push ({
