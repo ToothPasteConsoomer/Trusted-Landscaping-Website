@@ -30,7 +30,7 @@ formContact.addEventListener('submit', (e)=> {
     successMessage.textContent = 'Quote sent successfully!';
     }
     Email.send({
-        SecureToken: "ededee96-111f-43ba-a55f-e0595444d9c1",
+        SecureToken: "6630e37e-6ced-4666-8e70-f9401cf77f30",
         To: "moorearic5@gmail.com",
         From: "moorearic5@gmail.com,
         Subject: "Quote Request",
