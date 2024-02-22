@@ -10,7 +10,7 @@ const cityInput = document.getElementById('city');
 const optionInput = document.getElementById('options');
 const submit = document.getElementsByClassName('form-contact')[0];
 
-submit.addEventListener('click', (e) => { // Change 'submit' to 'click'
+submit.addEventListener('submit', (e) => { // Change 'submit' to 'click'
     e.preventDefault();
     console.log("Clicked");
 
@@ -34,7 +34,7 @@ submit.addEventListener('click', (e) => { // Change 'submit' to 'click'
 
     successMessage.textContent = 'Quote sent successfully!';
     Email.send({
-        SecureToken: "aa82427b-69d2-4421-b398-622278da0b54",
+        SecureToken: "29b73984-0843-426d-8433-6602f28945ce",
         To: "moorearic5@gmail.com",
         From: emailInput.value,
         Subject: "Quote Request",
