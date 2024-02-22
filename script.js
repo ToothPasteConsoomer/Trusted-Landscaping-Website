@@ -1,4 +1,3 @@
-const users = [];
 
 const successMessage = document.getElementById('success-message');
 const errorMessage = document.getElementById('error-message');
@@ -43,5 +42,5 @@ submit.addEventListener('click', (e) => { // Change 'submit' to 'click'
     .then(
         message => alert('Quote sent successfully!')
     );
-    // submit.reset(); // Assuming signupForm is defined elsewhere
+    // submit.reset(); 
 });
