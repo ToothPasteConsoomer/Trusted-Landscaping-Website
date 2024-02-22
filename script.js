@@ -43,5 +43,5 @@ submit.addEventListener('click', (e) => { // Change 'submit' to 'click'
     .then(
         message => alert('Quote sent successfully!')
     );
-    // signupForm.reset(); // Assuming signupForm is defined elsewhere
+    // submit.reset(); // Assuming signupForm is defined elsewhere
 });
