@@ -3,6 +3,10 @@ const users = [];
 const successMessage = document.getElementById('success-message');
 const errorMessage = document.getElementById('error-message');
 
+submit.addEventListener('submit',(e)=>{
+	e.preventDefault();
+	console.log("Clicked");
+})	
 signupForm.addEventListener('submit', function(event) {
 	event.preventDefault();
 	const firstNameInput = document.getElementById('fname').value;
